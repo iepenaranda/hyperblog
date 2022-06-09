@@ -1,5 +1,13 @@
-body{
-    color: deeppink;
-    text-align: center;
-    font-family: Helvetica, sans-serif;
+body {
+  color: deeppink;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+#container {
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid black;
+    margin: 0 auto;
 }
