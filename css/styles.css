@@ -11,3 +11,8 @@ body {
     border: 1px solid black;
     margin: 0 auto;
 }
+#contenido {
+    color: brown;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
