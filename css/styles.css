@@ -24,3 +24,12 @@ body {
   color: white;
   font-weight: 800;
 }
+
+#footer{
+  padding: 1px;
+  background-color: deeppink;
+  color: aliceblue;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+}
