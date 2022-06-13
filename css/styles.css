@@ -1,5 +1,26 @@
-body{
-    color: deeppink;
+body {
+  color: deeppink;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+}
+
+#container {
+    width: 70%;
+    padding: 1em;
+    text-align: left;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+#contenido {
+    color: brown;
     text-align: center;
-    font-family: Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#cabecera {
+  padding: 10px;
+  border: 2px solid black;
+  background-color: red;
+  color: white;
+  font-weight: 800;
 }
