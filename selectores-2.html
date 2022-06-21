@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores combinadores</title>
+    <style>
+        div p{
+            color: aqua;
+        }
+        div > div {
+            background: plum;
+        }
+        .es {
+            background: red;
+        }
+        div + section {
+            background: greenyellow;
+        }
+        div ~ p{
+            color: powderblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>Hola</p>
+        <p>mundo</p>
+        <div>
+            <p>Platzi</p>
+            <div class="es">Es</div>
+        </div>
+    </div>
+    <p>Clase de selectores 2</p>
+    <p>Clase de selectores 2</p>
+    <section>
+        Master
+    </section>
+</body>
+</html>
