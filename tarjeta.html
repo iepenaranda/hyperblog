@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 2px;
+      }
+      section {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .header {
+        background-color: forestgreen;
+        height: 20px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .header p {
+        margin: 0;
+        color: white;
+        font-family: system-ui;
+        font-size: x-small;
+      }
+      .card {
+        overflow: hidden;
+        width: 200px;
+        height: 375px;
+        background-color: rgb(27, 32, 29);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+      }
+      img {
+        width: 80%;
+        padding: 10px;
+        border-radius: 20px;
+      }
+      .menu {
+        display: flex;
+        justify-content: center;
+      }
+      .opcion {
+        color: gray;
+        font-family: system-ui;
+        font-size: x-small;
+        margin: 5px;
+        padding: 5px 2px;
+      }
+      .selected {
+        color: whitesmoke;
+        font-family: system-ui;
+        font-size: x-small;
+        padding: 5px;
+        margin: 5px 2px;
+        text-decoration: underline whitesmoke;
+      }
+      .title {
+        color: lightgray;
+        font-family: system-ui;
+        font-size: small;
+        padding-bottom: 10px;
+      }
+      .content {
+        height: 25%;
+        width: 85%;
+      }
+      .fila {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-family: system-ui;
+        font-size: xx-small;
+        padding: 2px;
+      }
+      .filasencilla {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-family: system-ui;
+        font-size: xx-small;
+        padding: 2px;
+      }
+      .content .titulo {
+        color: gray;
+      }
+      .content .fila {
+        color: whitesmoke;
+      }
+
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="card">
+        <div class="header">
+          <p>
+            Ivxn96
+          </p>
+        </div>
+        <img
+          src="https://vgmsite.com/soundtracks/hellblade-senua-s-sacrifice-original-soundtrack/Cover.jpg"
+          alt="Hellblade"
+        />
+        <div class="title">
+          Hellblade: Senua's Sacrifice
+        </div>
+        <div class="menu">
+          <div class="selected">RESUMEN</div>
+          <div class="opcion">LOGROS</div>
+          <div class="opcion">CAPTURAS</div>
+        </div>
+          <div class="content">
+            <div class="fila">
+              <div class="titulo">Tiempo jugado</div>
+              <div class="titulo">Ataques evadidos</div>
+            </div>
+            <div class="fila">
+              <div class="item">12h 30m</div>
+              <div class="item">23</div>
+            </div>
+            <div class="filasencilla">
+              <div class="titulo">Enemigos derrotados</div>
+            </div>
+            <div class="fila">
+              <div class="item">40</div>
+            </div>
+        </div>
+    </section>
+  </body>
+</html>
